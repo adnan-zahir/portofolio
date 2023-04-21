@@ -70,7 +70,7 @@ export default function Top() {
       <div id="top">
         <div id="topLeft">
           <h1>
-            HEY! <span>I'm</span> <AdnanSVG />
+            HEY! <span>I&apos;m</span> <AdnanSVG />
             <br />
             <span>Website</span> developer.
           </h1>
