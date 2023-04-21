@@ -1,0 +1,43 @@
+body {
+  font-family: var(--font-sans);
+  background-color: hsl(var(--color-dark-hsl));
+  color: hsl(var(--color-white-hsl));
+}
+
+.wrapper {
+  max-width: var(--max-width-out);
+}
+
+.wrapper-in {
+  max-width: var(--max-width-in);
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.contact-button {
+  padding: 0.7em 1.2em;
+  font-size: 1em;
+  font-family: var(--font-sans);
+  color: hsl(var(--color-white-hsl));
+  background-color: hsl(var(--color-primary-hsl));
+  border-radius: var(--border-radius);
+  border: none;
+  transition: background 200ms ease;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background-color: hsl(var(--color-tertiary-hsl));
+}
+
+.contact-button:active {
+  transition: color 50ms ease;
+  background-color: hsl(var(--color-secondary-hsl));
+}
+
+.soft-shadow {
+  box-shadow: 20px 20px 40px hsl(var(--shadow-dark-one-hsl)),
+    -20px -20px 40px hsl(var(--shadow-dark-two-hsl));
+}

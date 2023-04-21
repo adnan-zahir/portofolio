@@ -1,0 +1,36 @@
+#aboutMe {
+  display: flex;
+}
+
+#aboutMeLeft {
+  flex: 1;
+}
+
+#aboutMeLeft img {
+  width: 90%;
+  height: auto;
+}
+
+#aboutMeRight {
+  flex: 1;
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+#aboutMe .card {
+  border-radius: var(--border-radius);
+  background-color: hsl(var(--color-white-hsl));
+  color: hsl(var(--color-dark-hsl));
+  padding: 1.5em;
+}
+
+#aboutMe .cardNum {
+  color: hsl(var(--color-semi-hsl));
+  font-size: 1.8em;
+}
+
+#aboutMe .cardBody {
+  color: hsl(var(--color-semi-hsl));
+}

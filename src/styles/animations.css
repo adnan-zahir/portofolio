@@ -1,0 +1,25 @@
+@keyframes underlineBounceIn {
+  from {
+    left: 0;
+    right: 100%;
+  }
+  50% {
+    left: 80%;
+    right: 0;
+  }
+  to {
+    left: 0;
+    right: 0;
+  }
+}
+
+@keyframes underlineBounceOut {
+  from {
+    left: 0;
+    right: 0;
+  }
+  to {
+    left: 0;
+    right: 100%;
+  }
+}
