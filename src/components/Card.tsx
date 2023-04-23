@@ -11,6 +11,9 @@ export default function Card() {
           allows me to build any project fast and conveniently
         </p>
       </div>
+      <div className="circle one" />
+      <div className="square one" />
+      <div className="square two" />
     </div>
   );
 }

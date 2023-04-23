@@ -21,9 +21,12 @@
 
 #aboutMe .card {
   border-radius: var(--border-radius);
-  background-color: hsl(var(--color-white-hsl));
+  background-color: #eaeaea;
   color: hsl(var(--color-dark-hsl));
   padding: 1.5em;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
 }
 
 #aboutMe .cardNum {
@@ -33,4 +36,29 @@
 
 #aboutMe .cardBody {
   color: hsl(var(--color-semi-hsl));
+}
+
+#aboutMe .card .circle,
+#aboutMe .card .square {
+  z-index: -1;
+  background-color: #dadada;
+  position: absolute;
+  transform-origin: center;
+}
+
+#aboutMe .card .circle.one {
+  width: 3em;
+  top: -0.2em;
+  left: -0.3em;
+}
+#aboutMe .card .square.one {
+  rotate: 20deg;
+  width: 10em;
+  left: -2em;
+}
+#aboutMe .card .square.two {
+  rotate: 10deg;
+  width: 20em;
+  right: -15em;
+  top: 1.3em;
 }

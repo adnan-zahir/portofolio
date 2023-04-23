@@ -65,31 +65,36 @@
 
 .circle {
   border-radius: 100%;
+}
+.square {
+  border-radius: 20%;
+}
+
+#topRight .circle {
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.square {
-  border-radius: 20%;
+#topRight .square {
   transform: translateX(-50%);
 }
 
-.square.one {
+#topRight .square.one {
   width: 3em;
 }
-.square.two {
+#topRight .square.two {
   width: 1em;
 }
-.square.three {
+#topRight .square.three {
   width: 2em;
 }
-.square.four {
+#topRight .square.four {
   width: 1em;
 }
-.square.five {
+#topRight .square.five {
   width: 3em;
 }
-.square.six {
+#topRight .square.six {
   width: 2em;
 }
 
@@ -111,6 +116,7 @@
   left: 0;
   right: 0;
   top: 0;
+  bottom: 0;
   z-index: -10;
   opacity: 0.2;
 }

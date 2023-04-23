@@ -4,6 +4,10 @@ body {
   color: hsl(var(--color-white-hsl));
 }
 
+main {
+  overflow: hidden;
+}
+
 .wrapper {
   max-width: var(--max-width-out);
 }

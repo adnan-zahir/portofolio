@@ -2,6 +2,7 @@ import Head from "next/head";
 import Header from "../sections/Header";
 import Top from "../sections/Top";
 import AboutMe from "../sections/AboutMe";
+import Portfolio from "../sections/Portfolio";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <main>
           <Top />
           <AboutMe />
+          <Portfolio />
         </main>
       </div>
     </>

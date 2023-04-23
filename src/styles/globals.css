@@ -3,6 +3,7 @@
 @import "./animations.css";
 @import "./top.css";
 @import "./aboutme.css";
+@import "./portfolio.css";
 
 :root {
   --max-width-out: 1280px;
