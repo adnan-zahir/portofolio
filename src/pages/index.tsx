@@ -3,6 +3,7 @@ import Header from "../sections/Header";
 import Top from "../sections/Top";
 import AboutMe from "../sections/AboutMe";
 import Portfolio from "../sections/Portfolio";
+import Reviews from "../sections/Reviews";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
           <Top />
           <AboutMe />
           <Portfolio />
+          <Reviews />
         </main>
       </div>
     </>

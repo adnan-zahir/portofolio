@@ -12,15 +12,15 @@ export default function Top() {
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
         viewBox="0 0 1920 1080"
-        shape-rendering="geometricPrecision"
-        text-rendering="geometricPrecision"
+        shapeRendering="geometricPrecision"
+        textRendering="geometricPrecision"
       >
         <motion.path
           d="M0,823.803084q174.634297,99.008924,358.675411,43.504462C542.716525,811.803084,945.24106,309.168233,1390.889909,293.758452c125.615364-4.343566,257.073303,72.906951,337.688667,156.017852c54.157852,55.834368,191.421423,125.717338,191.421423,125.717338"
           transform="translate(.000001 54.000001)"
           fill="none"
           stroke="#e53170"
-          stroke-width="3.84"
+          strokeWidth="3.84"
           initial={{ strokeDasharray: "0 0 0 0" }}
           animate={{
             strokeDasharray: ["0 0 100 0", "0 359 0 0", "359 0 0 0"],
@@ -37,7 +37,7 @@ export default function Top() {
           transform="translate(.000001-87.999999)"
           fill="none"
           stroke="#e53170"
-          stroke-width="3.84"
+          strokeWidth="3.84"
           initial={{ strokeDasharray: "0 0 0 0" }}
           animate={{
             strokeDasharray: ["0 0 100 0", "0 359 0 0", "359 0 0 0"],
@@ -54,7 +54,7 @@ export default function Top() {
           transform="translate(.000001 0.000001)"
           fill="none"
           stroke="#e53170"
-          stroke-width="3.84"
+          strokeWidth="3.84"
           initial={{ strokeDasharray: "0 0 0 0" }}
           animate={{
             strokeDasharray: ["0 0 100 0", "0 359 0 0", "359 0 0 0"],

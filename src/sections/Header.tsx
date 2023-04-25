@@ -12,24 +12,36 @@ export default function Header() {
           <nav>
             <ul>
               <li>
-                <Link href="#top">Home</Link>
+                <Link href="#top" scroll={false}>
+                  Home
+                </Link>
               </li>
               <li>
-                <Link href="#aboutMe">About Me</Link>
+                <Link href="#aboutMe" scroll={false}>
+                  About Me
+                </Link>
               </li>
               <li>
-                <Link href="#portfolio">Portfolio</Link>
+                <Link href="#portfolio" scroll={false}>
+                  Portfolio
+                </Link>
               </li>
             </ul>
             <ul>
               <li>
-                <Link href="#reviews">Reviews</Link>
+                <Link href="#reviews" scroll={false}>
+                  Reviews
+                </Link>
               </li>
               <li>
-                <Link href="#faq">FAQ</Link>
+                <Link href="#faq" scroll={false}>
+                  FAQ
+                </Link>
               </li>
               <li>
-                <Link href="#contact">Contact</Link>
+                <Link href="#contact" scroll={false}>
+                  Contact
+                </Link>
               </li>
             </ul>
           </nav>

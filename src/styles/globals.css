@@ -4,6 +4,7 @@
 @import "./top.css";
 @import "./aboutme.css";
 @import "./portfolio.css";
+@import "./reviews.css";
 
 :root {
   --max-width-out: 1280px;
