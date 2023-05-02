@@ -22,6 +22,9 @@ dependencies:
   framer-motion:
     specifier: ^10.12.4
     version: 10.12.4(react-dom@18.2.0)(react@18.2.0)
+  jquery:
+    specifier: ^3.6.4
+    version: 3.6.4
   next:
     specifier: 13.3.0
     version: 13.3.0(react-dom@18.2.0)(react@18.2.0)
